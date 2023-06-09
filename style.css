@@ -1,0 +1,339 @@
+
+/* ----------------------------
+        Common Styles Started
+------------------------------ */
+body{
+    font-family: 'Playfair Display', serif;
+    margin: 0%; 
+}
+
+h1{
+    font-size: 50px;
+    margin: 5px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+    text-align: justify;
+}
+.color-orange{
+    color: orange;
+}
+.button{
+    text-decoration: none;
+    font-weight: 700;
+    background-image: linear-gradient(salmon, tomato);
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+    transition: .5s;   
+}
+.button:hover{
+    background-image: linear-gradient( rgb(251, 87, 58),rgb(248, 138, 126));
+    box-shadow: 0 0 10px 0 #777;
+}
+.text-center{
+    text-align: center;
+}
+/* ----------------------------
+        Common Styles Ended
+------------------------------ */
+
+
+
+
+
+/* -----------------------------
+Stay Focused Secetion is Started 
+--------------------------------*/
+.half-width{
+width: 50%;
+}
+.half-width img{
+    width: 90%;
+    padding: 10% 0 0 30% ;  
+}
+.header{
+    padding: 0% 10%; 
+    margin: 0 10% 5% 5%;  
+    display: flex;
+}
+.stay-focused{
+    display: flex;
+    padding-top: 30%;
+}
+.emty-div{
+width: 3px;
+height: 124px;
+border: 1px solid #FF5959;
+background-color: #FF5959;
+border-radius: 5px;
+margin-top: 18px;
+}
+
+/* -----------------------------
+Stay Focused Secetion is Ended 
+--------------------------------*/
+
+
+
+
+/* --------------------------------
+     My Mission 2022 Is Start
+---------------------------------- */
+.my-mission{
+    display: flex;
+    padding: 0% 10%; 
+    margin: 5%;  
+}
+.missions{
+    height: auto; 
+    width: 100%;
+    border-radius: 25px;
+    padding: 0 2% 0 3%;
+    transition: 1.5s;
+}
+.missions img{
+    width: 200px;
+}
+.missions:hover{    
+    box-shadow: 0 0 20px 0 #777;
+}
+.mission{
+    background: #FFF4D6;
+}
+.vission{
+    margin: 0 4% 0 4%;
+    background: rgba(255, 89, 89, 0.1);
+}
+.goals{
+    background: rgba(79, 157, 166, 0.1);
+}
+/* --------------------------------
+     My Mission 2022 Is End
+---------------------------------- */
+
+
+
+
+/* ------------------------------------
+    develop Without limits Is Started
+--------------------------------------- */
+.devloper-without-limits{
+background-image: url(img/shapes/shape-1.png);
+background-position: left;
+background-repeat: no-repeat;
+background-size: 20%;
+margin: 10% 5% 0 5%;
+padding: 0 10% 0 10%;
+display: flex;
+}
+.devloper-without-limits-left{    
+width: 40%;
+}
+.devloper-without-limits-left img{    
+width: 100%;
+border-radius: 10%;
+transition: 1.5s;
+}
+.devloper-without-limits-left img:hover{    
+    box-shadow: 0 0 30px 0 #777;
+}
+.devloper-without-limits-right{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10%;
+}
+/* ------------------------------------
+    develop Without limits Is Ended
+--------------------------------------- */
+
+
+
+
+/* ------------------------------------
+     Global Community Is Start
+--------------------------------------- */
+.golobal-community{
+    background: url(img/shapes/shape-1.png) no-repeat ;
+    background-position: right  bottom ;
+    background-size:20% ;
+    margin:5%;
+    display: flex;
+    padding: 0% 10%; 
+}
+/* left side */
+.left-side-golobal-community{
+    width: 60%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* right side  */
+.right-side-golobal-community{    
+    width: 40%;
+    padding-bottom: 10%;
+}      
+.right-side-golobal-community img{    
+    width: 100%;
+    border-radius: 10%;
+    transition: 1.5s;
+}
+.right-side-golobal-community img:hover{    
+        box-shadow: 0 0 30px 0 #777;
+}
+    
+/* ------------------------------------
+     Global Community Is End
+--------------------------------------- */
+
+
+
+/* ------------------------------------
+     Comment box Section is Started
+--------------------------------------- */
+.body-comment-box{
+    margin: 0px;
+    padding: 5% 0 5% 0;
+    background: url(img/picturesbg.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;  
+}
+.comment-box{
+    width: 40%;  
+}
+.comment-box img{
+    width: 100%;
+}
+.textbox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 8px 0;
+    margin: 8px 0;
+    color: rgb(204, 18, 18);
+    background: none;
+    border: 3px solid green;
+    border-radius: 10px;
+}
+.textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    color: rgb(204, 18, 18);
+    font-weight: 700;
+    font-size: 20px;
+    width: 80%;
+    float: left;
+    margin:0 10px;
+}
+.btn{
+    width: 20%;
+    float: left;
+    background: none;
+    border: 3px solid green;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 12px 0;
+    transition: 1s;
+    font-weight:700;
+}
+.btn:hover{
+    background-color: green;
+    color: pink; 
+    box-shadow: 0 0 30px 0 #777;  
+}
+/* ------------------------------------
+     Comment box Section is Ended
+--------------------------------------- */
+
+
+
+/* -------------------------------------
+            footer is started           
+--------------------------------------- */
+footer{
+    background-color: #0B0D17;
+    color: white;
+    font-family: 'Chewy', cursive;
+    font-family: 'Lobster', cursive;
+    padding: 2% 0;
+    margin: 0%;  
+}
+footer h3{
+    text-align: center;
+}
+footer p{
+    text-align: center;
+}
+.color-red{
+    color: #FF5959;
+}
+/* -------------------------------------
+            footer is Ended           
+--------------------------------------- */
+
+
+
+
+@media screen and (max-width: 1170px) {
+   
+    .header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding:0%;
+        margin: 0%;
+    }
+    .header img{
+        padding: 0%;
+    }
+    .my-mission{
+        display: flex;
+        flex-direction: column; 
+        padding:0 18%;
+    }
+    .my-mission div{
+        margin:0 0 10% 0; 
+    }
+    .devloper-without-limits{
+        display: flex;
+        flex-direction: column;
+        padding: 0 16%;
+    }
+    .devloper-without-limits div{
+        width: 100%;
+        padding: 0;
+    }
+    .golobal-community{
+        display: flex;
+        flex-direction: column;
+        padding: 0 16%;
+    }
+    .golobal-community a{
+        font-size: 15px;
+    }
+    .golobal-community div{
+        width: 100%;
+        padding: 0;
+        margin-bottom: 5%;
+    }
+    .btn{
+        width: 100px;
+    }
+    footer{
+        margin-top: 100px;
+    }
+  }
